@@ -1,0 +1,156 @@
+header {
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow:ivory 0px 0px 10px;
+}
+body {
+    background-image: url("måger.jpg");
+}
+
+.section_1{
+    border: 5px deepskyblue solid;
+    background-color: rgba(255, 255, 240, 0.4);
+    border-radius: 5px;
+    
+}
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.container ol{
+    list-style: none;
+    
+}
+img {
+    border:deepskyblue solid 5px;
+    padding: none;
+    border-radius: 5px;
+}
+@keyframes bling {
+    0% {background-color:deepskyblue;}
+    50% {background-color: yellow;}
+    100% {background-color: deepskyblue;}
+    0% {border-color: yellow;}
+    50% {border-color: deepskyblue;}
+    100%{border-color: yellow;}
+}
+.headline span {
+    background-color: deepskyblue;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border: dotted deepskyblue;
+    animation-name: bling;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+iframe {
+    border: deepskyblue solid 5px;
+    border-radius: 5px;
+}
+
+.reference-button {
+    color: black;  
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+    border: deepskyblue solid 2px;
+    background-color: rgba(255, 255, 240, 0.4);
+    text-decoration: none;
+}
+
+.reference-button:visited {
+    color: black;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.reference-button:hover {
+    background-color: ivory;
+    cursor: pointer;
+}
+.searchbar{
+    display: inline;
+    position:absolute; 
+    top: 10px; 
+    right: 10px;
+    font-size: 17px;
+    padding: 0px;
+    margin: 0px;
+    border: deepskyblue solid 2px;
+    background-color: rgba(255, 255, 240, 0.4);
+}
+#mågeMode {
+    background-color: deepskyblue;
+    border: none;
+}
+
+#mågeMode:hover{
+    background-color: ivory;
+    cursor: pointer;
+}
+
+#darkMode {
+    background-color: deepskyblue;
+    border: none;   
+}
+
+#darkMode:hover {
+    background-color: ivory;
+    cursor: pointer;
+}
+
+#plainMode {
+    background-color: deepskyblue;
+    border: none;
+}
+
+#plainMode:hover {
+    background-color: ivory;
+    cursor: pointer;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 5;
+    padding: 0px;
+}
+
+.nav-bar {
+    background-color: rgba(255, 255, 240, 0.4);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    border: deepskyblue solid 3px;
+}
+
+.list-element {
+    display: inline;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: deepskyblue;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content button {
+    width: 100%;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover #baggrund {
+    background-color: ivory;
+}

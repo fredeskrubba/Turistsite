@@ -1,0 +1,28 @@
+.kontaktcontainer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 240, 0.4);
+    padding: 10px;
+    margin: 10px;
+    border: deepskyblue solid 5px;
+    list-style: none;
+}
+
+.monkeydance1 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: rgba(255, 255, 255, 0.1) solid 2px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.monkeydance2 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: rgba(255, 255, 255, 0.1) solid 2px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
