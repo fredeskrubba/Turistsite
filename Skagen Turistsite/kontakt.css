@@ -1,28 +1,44 @@
-.kontaktcontainer {
+.profilepic {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#frederik {
+    border: solid 5px deepskyblue;
     display: flex;
     flex-direction: column;
-    background-color: rgba(255, 255, 240, 0.4);
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    border-bottom: none;
     padding: 10px;
-    margin: 10px;
-    border: deepskyblue solid 5px;
-    list-style: none;
 }
 
-.monkeydance1 {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    border: rgba(255, 255, 255, 0.1) solid 2px;
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;;
 }
-.monkeydance2 {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    border: rgba(255, 255, 255, 0.1) solid 2px;
-    position: absolute;
-    bottom: 5px;
-    left: 5px;
+
+h1 {
+    color: ivory;
+}
+
+h2 {
+    color: ivory;
+}
+
+a {
+    color: ivory;
+}
+
+p {
+    text-decoration: underline;
 }

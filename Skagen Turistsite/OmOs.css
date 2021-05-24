@@ -1,42 +1,80 @@
-.container {
-    display: flex;
+p {
+    background-color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px 2px black;
+}
+
+h1 {
+    color: ivory;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.grid1 {
+    display: grid;
+    gap: 10px;
+}
+.box1 {
+    border: deepskyblue solid 2px;
+    border-radius: 5px;
+    text-align: center;
+    background-image: url(forrest.jpg);
+    background-size: cover;
+}
+
+.box2 {
+    border: deepskyblue solid 2px;
+    border-radius: 5px;
+    text-align: center;
+    background-image: url(sky.jpg);
+    background-size: cover;
+}
+
+.box3 {
+    border: deepskyblue solid 2px;
+    border-radius: 5px;
+    text-align: center;
+    background-image: url(sun.jpg);
+    background-size: cover;
+}
+
+.grid2 {
+    border: deepskyblue solid 2px;
+    border-radius: 5px;
+    justify-content: center;
+    background-image: url("world.jpg");
+    background-size: cover;
+    color: ivory;
+}
+
+.box4 {
+    display: grid;
     justify-content: center;
 }
-.mig {
-    border: deepskyblue solid 5px;
-    background-color: rgba(255, 255, 240, 0.4);
-    margin: 5px;
-    flex: 1;
+
+.box4 ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    border: ivory solid 2px;
+    border-bottom: none;
+    border-top: none;
 }
 
-.baggrund {
-    border: deepskyblue solid 5px;
-    background-color: rgba(255, 255, 240, 0.4);
+
+.box4 li {
+    font-size: 20px;
     margin: 5px;
-    flex: 1;
+    border-bottom: ivory solid 1px;
 }
 
-.fremtid { 
-    border: deepskyblue solid 5px;
-    background-color: rgba(255, 255, 240, 0.4);   
-    margin: 5px;
-    flex: 1;
+.box4 h1 {
+    margin-bottom: 0px;
 }
-.monkeydance1 {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    border: rgba(255, 255, 255, 0.1) solid 2px;
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
-}
-.monkeydance2 {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    border: rgba(255, 255, 255, 0.1) solid 2px;
-    position: absolute;
-    bottom: 5px;
-    left: 5px;
+
+.fas {
+    color: ivory;
+    text-align: center;
 }
