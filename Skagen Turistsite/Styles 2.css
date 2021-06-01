@@ -1,0 +1,219 @@
+p {
+    text-shadow: 2px 2px 2px black;
+    color: ivory;
+}
+
+h1 {
+    color: ivory;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-shadow: 2px 2px 2px black;
+}
+body {
+    background-color: deepskyblue;
+    margin: 0px;
+}
+/* Navbar styling begins */
+.reference-button {
+    color: black;  
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+    border: deepskyblue solid 2px;
+    background-color: rgba(255, 255, 240, 0.4);
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.reference-button:visited {
+    color: black;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.reference-button:hover {
+    background-color: ivory;
+    cursor: pointer;
+}
+
+
+#mågeMode {
+    background-color: deepskyblue;
+    border: none;
+}
+
+#mågeMode:hover{
+    background-color: ivory;
+    cursor: pointer;
+}
+
+#darkMode {
+    background-color: deepskyblue;
+    border: none;   
+}
+
+#darkMode:hover {
+    background-color: ivory;
+    cursor: pointer;
+}
+
+#plainMode {
+    background-color: deepskyblue;
+    border: none;
+}
+
+#plainMode:hover {
+    background-color: ivory;
+    cursor: pointer;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 5;
+    padding: 0px;
+}
+
+.nav-bar {
+    background-color: rgba(255, 255, 240, 0.4);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    border: deepskyblue solid 3px;
+}
+
+.list-element {
+    display: inline;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: deepskyblue;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+/* sørger for at hele knappen lyser hvid */
+.dropdown-content button {
+    width: 100%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover #baggrund {
+    background-color: ivory;
+}
+
+/* Sætter margin til 0, så dropdown knapperne er ligeså lange som knappen selv */
+#baggrund {
+    margin: 0px;
+}
+
+/* sætter kontakt knappens højre margin til 10 for at kompensere for det jeg fjernede ved baggrundsknappen */
+#kontakt {
+    margin-right: 10px;
+}
+
+#searchbar{
+    display: inline;
+    position:absolute; 
+    top: 10px; 
+    right: 10px;
+    font-size: 17px;
+    padding: 2px;
+    margin: 0px;
+    border: deepskyblue solid 2px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 240, 0.4);
+}
+/* Navbar styling ends */
+
+.grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.grids p {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.grid1 {
+    display: grid;
+    gap: 10px;
+}
+.box1 {
+    border: deepskyblue solid 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-image: url(forrest.jpg);
+    background-size: cover;
+}
+
+.box2 {
+    border: deepskyblue solid 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-image: url(sky.jpg);
+    background-size: cover;
+}
+
+.box3 {
+    border: deepskyblue solid 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-image: url(sun.jpg);
+    background-size: cover;
+}
+
+.grid2 {
+    border: deepskyblue solid 5px;
+    border-radius: 5px;
+    justify-content: center;
+    background-image: url("world.jpg");
+    background-size: cover;
+    color: ivory;
+}
+
+.box4 {
+    display: grid;
+    justify-content: center;
+}
+
+.box4 ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    border: ivory solid 2px;
+    border-bottom: none;
+    border-top: none;
+}
+
+
+.box4 li {
+    font-size: 20px;
+    margin: 5px;
+    border-bottom: ivory solid 1px;
+}
+
+.box4 h1 {
+    margin-bottom: 0px;
+}
+
+.fas {
+    color: ivory;
+    text-align: center;
+}
+
+footer {
+    background-color: deepskyblue;
+    margin: 0px;
+    border-top: ivory 5px solid;
+}
+#background {
+    background-image: url("måger.jpg");
+}

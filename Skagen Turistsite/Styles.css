@@ -1,0 +1,266 @@
+header {
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-color: deepskyblue;
+    overflow-y: scroll;
+    margin: 0px;
+}
+p {
+    text-shadow: 2px 2px 2px black;
+    color: ivory;
+}
+
+/* Navbar styling begins */
+.reference-button {
+    color: black;  
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+    border: deepskyblue solid 2px;
+    background-color: rgba(255, 255, 240, 0.4);
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.reference-button:visited {
+    color: black;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.reference-button:hover {
+    background-color: ivory;
+    cursor: pointer;
+}
+
+
+#mågeMode {
+    background-color: deepskyblue;
+    border: none;
+}
+
+#mågeMode:hover{
+    background-color: ivory;
+    cursor: pointer;
+}
+
+#darkMode {
+    background-color: deepskyblue;
+    border: none;   
+}
+
+#darkMode:hover {
+    background-color: ivory;
+    cursor: pointer;
+}
+
+#plainMode {
+    background-color: deepskyblue;
+    border: none;
+}
+
+#plainMode:hover {
+    background-color: ivory;
+    cursor: pointer;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 5;
+    padding: 0px;
+}
+
+.nav-bar {
+    background-color: rgba(255, 255, 240, 0.4);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    border: deepskyblue solid 3px;
+}
+
+.list-element {
+    display: inline;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: deepskyblue;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+/* sørger for at hele knappen lyser hvid */
+.dropdown-content button {
+    width: 100%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover #baggrund {
+    background-color: ivory;
+}
+
+/* Sætter margin til 0, så dropdown knapperne er ligeså lange som knappen selv */
+#baggrund {
+    margin: 0px;
+}
+
+/* sætter kontakt knappens højre margin til 10 for at kompensere for det jeg fjernede ved baggrundsknappen */
+#kontakt {
+    margin-right: 10px;
+}
+
+#searchbar{
+    display: inline;
+    position:absolute; 
+    top: 10px; 
+    right: 10px;
+    font-size: 17px;
+    padding: 2px;
+    margin: 0px;
+    border: deepskyblue solid 2px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 240, 0.4);
+}
+/* Navbar styling ends */
+
+/* Header styling begins */
+.gridcontainer1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}
+
+.grid1 {
+    border: deepskyblue solid 5px;
+    background-image: url("https://www.visitnordjylland.dk/sites/visitnordjylland.com/files/2021-01/Skagen_Vesterbrofotograferne%20%2823%29.jpg");
+    background-size: cover;
+    text-shadow: black  2px 2px 2px;
+}
+
+.textfield {
+    background-color: rgba(0,0,0,0.4);
+    color: ivory;
+    border-radius: 10px;
+}
+.grid2 {
+    border: deepskyblue 5px solid;
+    padding: 200px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+
+.gridcontainer2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.textbox {
+    border: deepskyblue 5px solid;
+}
+.banner {
+    background-color: rgba(255, 255, 240, 0.7);
+    color: deepskyblue;
+    border: deepskyblue solid 5px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px ivory;
+}
+
+.box1 {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box1 img {
+    height: 400px;
+    width: 400px;
+    border: deepskyblue 5px solid;
+}
+
+footer {
+    background-color: deepskyblue;
+    margin: 0px;
+    border-top: ivory 5px solid;
+}
+
+footer p {
+    margin: 5px;
+}
+#background {
+    background-image: url("måger.jpg");
+}
+
+.gridcontainer2 {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box2 {
+    border: deepskyblue 5px solid;
+    background-color: rgba(255, 255, 240, 0.4);
+}
+
+.leftarrow i {
+    position: relative;
+    color: ivory;
+    background-color: rgba(0,0,0,0.4);
+    padding: 10px;
+    right: 200px;
+}
+
+.rightarrow i {
+    position: relative;
+    color: ivory;
+    background-color: rgba(0,0,0,0.4);
+    padding: 10px;
+    left: 200px;
+}
+
+.leftarrow:hover {
+    cursor: pointer;
+}
+
+.rightarrow:hover {
+    cursor: pointer;
+}
+
+#banner4Content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.locationGrid1 {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.locationGrid1 iframe {
+    width: 100%;
+    box-sizing: border-box;
+    border: deepskyblue 5px solid;
+    height: 500px;
+}
+
+.links {
+    display: flex;
+    border: deepskyblue 5px solid;
+    background-image: url("waves.gif");
+    background-size: cover;
+    height: 1100px;
+}
