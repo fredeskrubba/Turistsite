@@ -3,9 +3,17 @@ p {
     color: ivory;
 }
 
-h1 {
+.grid1 h1 {
     color: ivory;
     background-color: rgba(0, 0, 0, 0.4);
+    text-shadow: 2px 2px 2px black;
+}
+h1 {
+    color: ivory;
+    text-shadow: 2px 2px 2px black;
+}
+
+.grid2 ul {
     text-shadow: 2px 2px 2px black;
 }
 body {
@@ -216,4 +224,8 @@ footer {
 }
 #background {
     background-image: url("måger.jpg");
+}
+
+#about {
+    background-color: ivory;
 }

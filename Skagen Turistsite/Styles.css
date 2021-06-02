@@ -11,6 +11,13 @@ p {
     color: ivory;
 }
 
+img:hover {
+    transform: scale(1.5, 1.2);
+}
+
+.box2:hover {
+    transform: scale(1.5, 1.2);
+}
 /* Navbar styling begins */
 .reference-button {
     color: black;  
@@ -263,4 +270,22 @@ footer p {
     background-image: url("waves.gif");
     background-size: cover;
     height: 1100px;
+    justify-content: center;
+}
+
+#otherSites {
+    list-style: none;
+}
+
+#otherSites li{
+    margin: 20px;
+    font-size: 25px;
+}
+#otherSites a {
+    color: ivory;
+    text-shadow: 2px 2px 2px black;
+    
+}
+#home {
+    background-color: ivory;
 }

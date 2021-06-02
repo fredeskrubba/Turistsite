@@ -1,6 +1,7 @@
 body {
     background-color: deepskyblue;
     margin: 0px;
+    text-shadow: 2px 2px 2px black;
 }
 
 /* Navbar styling begins */
@@ -13,7 +14,9 @@ body {
     background-color: rgba(255, 255, 240, 0.4);
     text-decoration: none;
     border-radius: 15px;
+    text-shadow: none;
 }
+
 
 .reference-button:visited {
     color: black;
@@ -182,4 +185,8 @@ footer {
 }
 #background {
     background-image: url("måger.jpg");
+}
+
+#kontakt {
+    background-color: ivory;
 }
