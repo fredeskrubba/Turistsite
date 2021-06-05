@@ -101,7 +101,6 @@ img:hover {
     background-color: deepskyblue;
     width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
 }
 /* sørger for at hele knappen lyser hvid */
 .dropdown-content button {
@@ -201,6 +200,7 @@ img:hover {
 footer {
     background-color: deepskyblue;
     margin: 0px;
+    position: relative;
     border-top: ivory 5px solid;
 }
 
@@ -245,11 +245,27 @@ footer p {
 .rightarrow:hover {
     cursor: pointer;
 }
+#banner1Content{
+    animation-name: slideIn;
+    animation-duration: 1s;
+}   
+
+#banner2Content{
+    animation-name: slideIn;
+    animation-duration: 1s;
+}   
+
+#banner3Content{
+    animation-name: slideIn;
+    animation-duration: 1s;
+}   
 
 #banner4Content{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
+    animation-name: slideIn;
+    animation-duration: 1s;
 }
 
 .locationGrid1 {
@@ -262,15 +278,25 @@ footer p {
     box-sizing: border-box;
     border: deepskyblue 5px solid;
     height: 500px;
+    animation-name: slideIn;
+    animation-duration: 1s;
 }
-
+.locationgrid2 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 .links {
-    display: flex;
+    display: grid;
     border: deepskyblue 5px solid;
     background-image: url("waves.gif");
     background-size: cover;
-    height: 1100px;
+    height: 500px;
     justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    animation-name: slideIn;
+    animation-duration: 1s;
 }
 
 #otherSites {
@@ -288,4 +314,26 @@ footer p {
 }
 #home {
     background-color: ivory;
+}
+
+#topDanmark{
+    display: grid;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    z-index: 0;
+    animation-name: slideIn;
+    animation-duration: 1s;
+}
+
+#topDanmark iframe {
+    width: 100%;
+    border: deepskyblue 5px solid;
+    box-sizing: border-box;
+}
+
+
+@keyframes slideIn {
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
 }

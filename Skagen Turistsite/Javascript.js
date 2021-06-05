@@ -63,6 +63,7 @@ const banner4 = document.querySelector("#banner4");
 const banner5 = document.querySelector("#banner5");
 const banner6 = document.querySelector("#banner6");
 const banner7 = document.querySelector("#banner7");
+const banner8 = document.querySelector("#banner8");
 
 const arrow1 = document.querySelector("#arrow1");
 const arrow2 = document.querySelector("#arrow2");
@@ -71,6 +72,7 @@ const arrow4 = document.querySelector("#arrow4");
 const arrow5 = document.querySelector("#arrow5");
 const arrow6 = document.querySelector("#arrow6");
 const arrow7 = document.querySelector("#arrow7");
+const arrow8 = document.querySelector("#arrow8");
 
 
 const banner1Content = document.querySelector("#banner1Content");
@@ -80,6 +82,7 @@ const banner4Content = document.querySelector("#banner4Content");
 const banner5Content = document.querySelector("#maps");
 const banner6Content = document.querySelector("#rejseplanen");
 const banner7Content = document.querySelector(".links");
+const banner8Content = document.querySelector("#topDanmark");
 
 banner1.addEventListener("click", collaps1);
 banner2.addEventListener("click", collaps2);
@@ -88,6 +91,7 @@ banner4.addEventListener("click", collaps4);
 banner5.addEventListener("click", collaps5);
 banner6.addEventListener("click", collaps6);
 banner7.addEventListener("click", collaps7);
+banner8.addEventListener("click", collaps8);
 
 function collaps1(){
     if (banner1Content.style.display === "none"){
@@ -156,6 +160,16 @@ function collaps7(){
     } else {
         banner7Content.style.display = "none";
         arrow7.className = "fas fa-arrow-circle-up";
+    }
+};
+
+function collaps8(){
+    if (banner8Content.style.display === "none"){
+        banner8Content.style.display = "grid";
+        arrow8.className = "fas fa-arrow-circle-down";
+    } else {
+        banner8Content.style.display = "none";
+        arrow8.className = "fas fa-arrow-circle-up";
     }
 };
 // Banner collapse slut
